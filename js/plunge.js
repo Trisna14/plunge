@@ -41,15 +41,5 @@ class Pen extends Moder {
 
 }
 
-const compress = new Pen;
 
-var data = {
-    'URL'   : 'http://www.omdbapi.com?apikey=a97702a5&s=',
-    'HTML_Request' : 'GET',
-    'button_id' : 'tombol',
-    'input_id'  : 'cari'
-}
-console.log('1');
-compress.typists_by(data,(response) => console.log(response));
-console.log('2');
 
