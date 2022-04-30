@@ -9,7 +9,7 @@
 <script src="js/plunge.js"></script>
 ```
 
-**How to get all data**
+###### How to get all data
 
 ```javascript
 const compress = new Pen;
@@ -20,7 +20,7 @@ const data = {
 compress.typists(data,(response) => { console.log(JSON.parse(response));});
 ```
 
-**How to get data by input**
+###### How to get data by input
 
 ```javascript
 const compress = new Pen;
