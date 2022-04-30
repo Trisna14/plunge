@@ -1,7 +1,7 @@
 
 class Moder {
 
-    // request to App
+    // request App to get data
     connector = (HTML_Request,URL,request) => {
         
         import('./packages/App.js')

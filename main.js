@@ -20,10 +20,10 @@
 const compress = new Pen;
 
 var data = {
-    'URL'   : 'http://www.omdbapi.com?apikey=a97702a5&s=',
+    'URL'   : 'http://www.omdbapi.com?apikey=a97702a5&s=',  // API URL
     'HTML_Request' : 'GET',
-    'button_id' : 'tombol',
-    'input_id'  : 'cari'
+    'button' : 'tombol',    // the id that the button has
+    'input'  : 'cari'       // the id that the input has
 }
 console.log('1');
 compress.typists_by(data,(response) => console.log(response));
