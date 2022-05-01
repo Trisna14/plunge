@@ -2,13 +2,13 @@
 
 // console.log('1');
 
-const data = {
-    'URL'   : '',   // URL API
-    'HTML_Request' : 'GET'
-}
+// const data = {
+//     'URL'   : '',   // URL API
+//     'HTML_Request' : 'GET'
+// }
 
-compress.typists(data,(response) => { console.log(JSON.parse(response));});
-console.log('2');
+// compress.typists(data,(response) => { console.log(JSON.parse(response));});
+// console.log('2');
 
 
 // const compress = new Pen;
@@ -22,3 +22,8 @@ console.log('2');
 // console.log('1');
 // compress.typists_by(data,(response) => console.log(response));
 // console.log('2');
+
+const compress = new Pen;
+compress.typeing
+.then(response => console.log(response))
+.catch(response => console.log(response));
