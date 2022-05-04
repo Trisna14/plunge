@@ -39,17 +39,16 @@ class Pen extends Moder {
         }
     }
 
-    // ! new line
-    typeing = new Promise((resolve, reject) => {
+    // ! just for Local JSON
+    sticker = (resources, request) => {
 
         import('./packages/App.js')
         .then(response => {
 
             const compress = new response.App;
-            compress.taker('','GET',(response) => resolve(response),(response) => reject(response));
-        });        
-    
-    });
+            compress.taker(resources, (response) => request(response));
+        });
+    }
 
 }
 

@@ -20,8 +20,8 @@ export class App {
         xhr.send();
     }
 
-    // ! new line
-    taker = (URL ,HTML_Request ,request, fail) => {
+   // ! just for Local JSON
+    taker = (URL, request) => {
 
         let xhr = new XMLHttpRequest();
 
@@ -31,16 +31,12 @@ export class App {
                 
                 if (xhr.status === 200) {
     
-                    request(xhr.response);
-
-                } else if (xhr.status === 404) {
-                    
-                    fail('404');
+                    request(JSON.parse(xhr.response));
                 }
             }
         }
     
-        xhr.open(HTML_Request,URL, true);
+        xhr.open('GET',URL, true);
         xhr.send();
     }
 

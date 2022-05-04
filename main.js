@@ -23,7 +23,11 @@
 // compress.typists_by(data,(response) => console.log(response));
 // console.log('2');
 
-const compress = new Pen;
-compress.typeing
-.then(response => console.log(response))
-.catch(response => console.log(response));
+// const compress = new Pen;
+// compress.typeing
+// .then(response => console.log(response))
+// .catch(response => console.log(response));
+
+
+const init = new Pen;
+init.sticker('json/fake.json',(response) => {console.log(response)})
