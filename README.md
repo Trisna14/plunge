@@ -2,7 +2,7 @@
 
 # Plunge is Semi-finished Program used to get data from **Rest API** and JSON FILE using Vanilla JavaScript :pencil2:
 
-### Write a script to get data from the rest API on the Front End
+### Write a script to get data from the rest API on the Front End multiple data retrieval
 
 **For Example**
 ```javascript
@@ -33,7 +33,11 @@ var data = {
 compress.typists_by(data,(response) => console.log(response));
 ```
 
-**! Just for Local JSON**
+<hr>
+
+*You can also be used to get Local JSON* :computer:
+
+**For Example**
 
 ```javascript
 const compress = new Pen;
